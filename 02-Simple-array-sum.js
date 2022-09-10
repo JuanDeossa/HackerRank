@@ -11,5 +11,7 @@ https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
  */
 
 function simpleArraySum(ar) {
-    
+    return ar.reduce((i,j)=>i+j)
 }
+
+console.log(simpleArraySum([1,2,3,4,5]));
