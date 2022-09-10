@@ -11,6 +11,10 @@ https://www.hackerrank.com/challenges/find-the-median/problem?h_r=next-challenge
  */
 
 function findMedian(arr) {
-    // Write your code here
-
+    let ascendantSorteArr=arr.sort((a,b)=>{
+        return a-b
+    })
+    return ascendantSorteArr[Math.ceil(ascendantSorteArr.length/2-1)]
 }
+
+console.log(findMedian([3,2,5,6,11]));
