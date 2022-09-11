@@ -1,1 +1,1 @@
-# HackerRank-Algorithm Excercises (1-5)
+# HackerRank-Algorithm Excercises (1-10)
